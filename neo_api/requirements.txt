@@ -1,0 +1,5 @@
+neo-api-client @ git+https://github.com/Kotak-Neo/kotak-neo-api.git@f55fd944505a6ec99c66f1525142b115253da7bd
+PyJWT==2.6.0
+requests==2.25.1
+six==1.16.0
+

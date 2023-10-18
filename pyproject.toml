@@ -1,0 +1,13 @@
+[project]
+name = "neo_api"
+version = "0.0.1"
+dependencies = [
+    "requests>=2.25.1",
+    "six>=1.16.0",
+    "PyJWT>=2.6.0",
+    "neo-api-client @ git+https://github.com/Kotak-Neo/kotak-neo-api.git@f55fd944505a6ec99c66f1525142b115253da7bd",
+    
+]
+
+[tool.setuptools.packages.find]
+include = ["neo_api"]
